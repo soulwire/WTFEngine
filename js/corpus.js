@@ -51,7 +51,7 @@ var phrases = [
 	"Get your shit together and get going with a fucking",
 	"This shit will be trending on Twitter - a fucking",
 	"Dinner is for the kind of chumps who couldn't build a fucking",
-	"Get some coffee; tonight you're building a fucking",
+	"Make some coffee; you're building a fucking",
 	"Get your fucking CPU crunching on a"
 ];
 
