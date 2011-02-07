@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en-US</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>swf</string>
+				<string>spl</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>document_swf.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>Shockwave Flash Movie</string>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>SWFL</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>flv</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>document_flv.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>Macromedia Flash Video</string>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>MFLV</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>None</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>f4v</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>document_f4v.icns</string>
+			<key>CFBundleTypeMIMETypes</key>
+			<array>
+				<string>video/mp4</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>Video for Adobe Flash Player</string>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>F4V</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>None</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>f4p</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>document_f4p.icns</string>
+			<key>CFBundleTypeMIMETypes</key>
+			<array>
+				<string>video/mp4</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>Protected Media for Adobe Flash Player</string>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>F4P</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>f4a</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>document_f4a.icns</string>
+			<key>CFBundleTypeMIMETypes</key>
+			<array>
+				<string>audio/mp4</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>Audio for Adobe Flash Player</string>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>F4A</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>Flash Player</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Adobe Flash Player   10.1 r52 Copyright 1996-2010 Adobe Systems Incorporated and its licensors. All rights reserved.</string>
+	<key>CFBundleIconFile</key>
+	<string>FlashPlayer.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.macromedia.Flash Player.app</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleLongVersionString</key>
+	<string>Adobe Flash Player   10.1 r52</string>
+	<key>CFBundleName</key>
+	<string>Flash Player</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>10.1.52.14</string>
+	<key>CFBundleSignature</key>
+	<string>SWF2</string>
+	<key>CFBundleVersion</key>
+	<string>10.1</string>
+	<key>CSResourcesFileMapped</key>
+	<true/>
+	<key>LSPrefersCarbon</key>
+	<string>YES</string>
+	<key>NSAppleScriptEnabled</key>
+	<string>YES</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright � 1996-2010 Adobe Systems Incorporated and its licensors. All Rights Reserved.</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>
