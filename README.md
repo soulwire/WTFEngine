@@ -3,7 +3,7 @@ WTF Engine
 
 __WTF Engine__ is an HTML / CSS / JavaScript template for generating [WTFSIMFD](http://whatthefuckshouldimakefordinner.com/) style websites, originally written for [What The Fuck Is My Mashup?](http://whatthefuckismymashup.com/) and inspired by the infamous [What The Fuck Should I Make For Dinner?](http://whatthefuckshouldimakefordinner.com/) by [Zach Golden](http://www.zachgolden.com/)
 
-This was written simply as a bit of fun. Zach's site was so popular that it inspired references based on other subjects, such as [What The Fuck Is My Social Media Strategy?](whatthefuckismysocialmediastrategy.com) (and consequently [What The Fuck Is My Mashup?](http://whatthefuckismymashup.com/)). As far as I am aware, this idea was Zach's alone and so credit to him for the inspiration. As a meme, there are doubtlessly many topics that could do with the WTF treatment; which is why I decided to create this (very) simple platform.
+This was written simply as a bit of fun. Zach's site was so popular that it inspired references based on other subjects, such as [What The Fuck Is My Social Media Strategy?](http://whatthefuckismysocialmediastrategy.com) (and consequently [What The Fuck Is My Mashup?](http://whatthefuckismymashup.com/)). As far as I am aware, this idea was Zach's alone and so credit to him for the inspiration. As a meme, there are doubtlessly many topics that could do with the WTF treatment; which is why I decided to create this (very) simple platform.
 
 How to use it
 -----
