@@ -19,6 +19,8 @@ If you choose to use a Google spreadsheet, you must [publish it first](https://s
 
 Here's an [example spreadsheet](https://docs.google.com/a/soulwire.co.uk/spreadsheet/ccc?key=0AvG1Hx204EyydF9ub1M2cVJ3Z1VGdDhTSWg0ZV9LNGc), which you can clone and use a base for your data source.
 
+___Note:__ For local testing (when using loaded JSON or Google spreadsheet data), you'll need to serve the site from a local webserver. You can easily do this using tools like [SimpleHTTPServer](http://www.linuxjournal.com/content/tech-tip-really-simple-http-server-python) for Python or [http-server](https://github.com/nodeapps/http-server) for Node._
+
 ## How it works
 
 The process is very simple. The WTF Engine takes a sentence template and fills in different types of blanks with different types of words, much like the game [Mad Libs](http://en.wikipedia.org/wiki/Mad_Libs). You can nominate any amount of templates and as many different categories of words or phrases as you like.
