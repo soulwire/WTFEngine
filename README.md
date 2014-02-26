@@ -42,6 +42,7 @@ I've been pleasantly surprised to find several people using this template to cre
 - [What the Fuck is my Twitter Bio](http://whatthefuckismytwitterbio.com/)
 - [What the Fuck is my Award Idea](http://whatthefuckismyawardidea.com/)
 - [Fucking Valentines](http://fuckingvalentines.com/)
+- [Tony Abbott Excuse](http://abbottexcuse.1apps.com/)
 - [Why the Fuck are you Running Late](http://www.whythefuckareyourunninglate.com/)
 - [What the Fuck is my Brief](http://www.whatthefuckismybrief.com/)
 - [Whip-o-matic](http://whipomatic.com/)
