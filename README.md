@@ -40,6 +40,7 @@ I've been pleasantly surprised to find several people using this template to cre
 
 - [What the Fuck is my Wearable Strategy](http://whatthefuckismywearablestrategy.com/)
 - [What the Fuck is my Twitter Bio](http://whatthefuckismytwitterbio.com/)
+- [What the Fuck is my Award Idea](http://whatthefuckismyawardidea.com/)
 - [Fucking Valentines](http://fuckingvalentines.com/)
 - [Why the Fuck are you Running Late](http://www.whythefuckareyourunninglate.com/)
 - [What the Fuck is my Brief](http://www.whatthefuckismybrief.com/)
