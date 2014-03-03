@@ -46,7 +46,7 @@ I've been pleasantly surprised to find several people using this template to cre
 - [Why the Fuck are you Running Late](http://www.whythefuckareyourunninglate.com/)
 - [What the Fuck is my Brief](http://www.whatthefuckismybrief.com/)
 - [Whip-o-matic](http://whipomatic.com/)
-- [What the Fuck is my Panel](http://wtfismypanel.com/)
+- [What the Fuck is my SXSW Panel](http://wtfismypanel.com/)
 - [Pitchfork Review Generator](http://pitchforkreviewgenerator.com/)
 - [Shit PR Ideas](http://shitprideas.com/)
 - [What the Fuck is my Mashup](http://whatthefuckismymashup.com/)
