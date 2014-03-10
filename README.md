@@ -39,6 +39,7 @@ As you can see, in a template you use the __@__ symbol, followed by the type of 
 I've been pleasantly surprised to find several people using this template to create their own sites. Among them are:
 
 - [What the Fuck is my Wearable Strategy](http://whatthefuckismywearablestrategy.com/)
+- [What the Fuck is my Next TV Format](http://www.whatthefuckismynexttvformat.com/)
 - [What the Fuck is my Twitter Bio](http://whatthefuckismytwitterbio.com/)
 - [What the Fuck is my Award Idea](http://whatthefuckismyawardidea.com/)
 - [Fucking Valentines](http://fuckingvalentines.com/)
