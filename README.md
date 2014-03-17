@@ -42,6 +42,7 @@ I've been pleasantly surprised to find several people using this template to cre
 - [What the Fuck is my Next TV Format](http://www.whatthefuckismynexttvformat.com/)
 - [What the Fuck is my Twitter Bio](http://whatthefuckismytwitterbio.com/)
 - [What the Fuck is my Award Idea](http://whatthefuckismyawardidea.com/)
+- [What is my SEO Doing](http://www.clicksandclients.com/what-is-my-seo-doing/)
 - [Fucking Valentines](http://fuckingvalentines.com/)
 - [Tony Abbott Excuse](http://abbottexcuse.1apps.com/)
 - [Why the Fuck are you Running Late](http://www.whythefuckareyourunninglate.com/)
