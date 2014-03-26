@@ -1,7 +1,0 @@
-# Logfile created on 2014-03-26 15:10:48 +0000 by logger.rb/44203
-I, [2014-03-26T15:10:48.755507 #39546]  INFO -- : 0:  rake (10.2.1) from /Users/sam/.rvm/gems/ruby-2.1.0/specifications/rake-10.2.1.gemspec
-I, [2014-03-26T15:10:48.755842 #39546]  INFO -- : 0:  daemons (1.1.9) from /Users/sam/.rvm/gems/ruby-2.1.0/specifications/daemons-1.1.9.gemspec
-I, [2014-03-26T15:10:48.756204 #39546]  INFO -- : 0:  eventmachine (1.0.3) from /Users/sam/.rvm/gems/ruby-2.1.0/specifications/eventmachine-1.0.3.gemspec
-I, [2014-03-26T15:10:48.756636 #39546]  INFO -- : 0:  rack (1.5.2) from /Users/sam/.rvm/gems/ruby-2.1.0/specifications/rack-1.5.2.gemspec
-I, [2014-03-26T15:10:50.594703 #39546]  INFO -- : 0:  thin (1.6.2) from /Users/sam/.rvm/gems/ruby-2.1.0/specifications/thin-1.6.2.gemspec
-I, [2014-03-26T15:10:50.595303 #39546]  INFO -- : 0:  bundler (1.5.0) from /Users/sam/.rvm/gems/ruby-2.1.0@global/specifications/bundler-1.5.0.gemspec
