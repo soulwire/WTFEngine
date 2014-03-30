@@ -4,6 +4,8 @@ Inspired by [WhatTheFuckShouldIMakeForDinner.com](http://whatthefuckshouldimakef
 
 It's very simple to use and now allows you to populate it using either vanilla JavaScript objects, JSON files or direct feeds from Google spreadsheets.
 
+This fork is designed to deploy very easily onto Heroku, see below.
+
 ## How to use it
 
 To make your own, simply [clone](github-mac://openRepo/https://github.com/soulwire/WTFEngine) or [download](https://github.com/soulwire/WTFEngine/archive/master.zip) this repository and start populating the engine with your content.
@@ -33,6 +35,17 @@ For example, here is a basic corpus
     };
     
 As you can see, in a template you use the __@__ symbol, followed by the type of word you wish to use to tell the WTF Engine to pick a random word of that type from the corpus and insert it at that point.
+
+## Deploying it
+
+This fork is designed to deploy directly onto Heroku. It _should_ be as simple as 
+
+* Create (or more likely copy) the Google spreadsheet
+* Put the spreadsheet ID into _public/scripts/main.js_
+* Commit the changes
+* `heroku apps:create --region eu`
+* `git push heroku master`
+* `heroku open`
 
 ## Showcase
 
