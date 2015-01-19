@@ -38,6 +38,7 @@ As you can see, in a template you use the __@__ symbol, followed by the type of 
 
 I've been pleasantly surprised to find several people using this template to create their own sites. Among them are:
 
+- [What is my Pony](http://whoismypony.ponyfinder.net/)
 - [Game of Thrones spoiler generator](http://takephive.com/got_spoilergen/)
 - [Who the Fuck is my D&D Character](http://whothefuckismydndcharacter.com/)
 - [RPG Focused Character Idea Generator](http://enklave-23.de/WTF/)
