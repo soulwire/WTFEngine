@@ -13,8 +13,10 @@ var WTF = (function() {
 
     var RE_QUOTE = /\"([^\"]+)\"/gi;
     var RE_JSON = /\.json$/i;
+    var RE_COL = /^gsx\$(.+)$/i;
     var RE_KEY = /[a-z0-9_-]{32,}/i;
-    var DOCS_PATH = 'https://docs.google.com/spreadsheet/pub?key={key}&output=csv';
+    var DOCS_PATH = "https://spreadsheets.google.com/feeds/list/{key}/od6/public/values?alt=json";
+
 
     var templates;
     var responses;
@@ -61,8 +63,6 @@ var WTF = (function() {
 
     function parseCSV( csv ) {
 
-        var corpus = {};
-
         var i, j, k, n, m, cols, keys = {}, data = {}, rows = csv.split( '\n' );
 
         for ( i = 0, n = rows.length; i < n; i++, j = i - 1 ) {
@@ -78,6 +78,46 @@ var WTF = (function() {
                 } else if ( cols[ k ] ) {
 
                     data[ keys[ k ] ][ j ] = unescape( cols[ k ] ).replace( /^\"|\"$/g, '' );
+                }
+            }
+        }
+
+        return data;
+    }
+
+    /*
+      ------------------------------------------------------------
+
+        Converts JSON data to a regular corpus object
+        @see sample.json
+
+      ------------------------------------------------------------
+    */
+
+    function parseJSON( json ) {
+
+        var i, n, key, val, map = {}, keys = {}, data = {}, rows = json.feed.entry;
+
+        for ( key in rows[0] ) {
+            
+            if ( RE_COL.test( key ) ) {
+                
+                map[ key ] = key.match( RE_COL )[ 1 ].toLowerCase();
+                keys[ key ] = [];
+            }
+        }
+
+        for ( key in keys ) {
+            
+            data[ map[ key ] ] = keys[ key ];
+
+            for ( i = 0, n = rows.length; i < n; i++ ) {
+
+                val = rows[ i ][ key ].$t;
+
+                if ( val && val.length ) {
+
+                    keys[ key ].push( val );
                 }
             }
         }
@@ -148,8 +188,6 @@ var WTF = (function() {
 
             type = item[ 0 ];
             text = item[ 1 ];
-
-            console.log( text, copy, copy[ text ] );
 
             part = randomItem( copy[ text ], true );
             idea = idea.replace( type, part );
@@ -261,12 +299,12 @@ var WTF = (function() {
 
                 } else if ( RE_KEY.test( data ) ) {
 
-                    // CSV
+                    // JSON
 
                     $.ajax({
                         url: DOCS_PATH.replace( '{key}', data ),
                         success: function( data, status, xhr ) {
-                            corpus = parseCSV( data );
+                            corpus = parseJSON( data );
                             start();
                         },
                         error: function( xhr, errorType, error ) {
