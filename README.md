@@ -40,7 +40,7 @@ I've been pleasantly surprised to find several people using this template to cre
 
 - [WTF Are My Weekend Plans](www.wtfplans.com)
 - [What The Fuck Is My Hydration Strategy](http://theplan.co.uk/hydration/)
-- [What The Fuck Is Birmingham's Transport Strategy?](http://toys.paradisecircus.com/transport/)
+- [What The Fuck Is Birmingham's Transport Strategy](http://toys.paradisecircus.com/transport/)
 - [What's your fucking weapon](http://scottyboy76567.github.io/WeaponGenerator/)
 - [Who the Fuck is my Superhero Character](http://vanor.co.il/heroes/)
 - [What the Fuck is my Quest](http://whatthefuckismyquest.com/)
