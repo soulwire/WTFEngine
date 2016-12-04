@@ -50,6 +50,36 @@ var WTF = (function() {
         initUI();
         buildRexExp();
         generate();
+        $('#templates').html(templates.length + ' template' + (templates.length == 1 ? '' : 's'))
+        $('#outcomes').html(getTotalNumOptions().toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
+    }
+
+    function getTotalNumOptions() {
+        var num = 0
+        for(var i = 0; i < templates.length; i++) {
+            num += getNumTemplateOptions(templates[i])
+        }
+        return num
+    }
+
+    function getNumTemplateOptions( template ) {
+        var type, iter = 0, // Safety mechanism
+            item = regex.exec( template ),
+            copy = cloneCorpus();
+
+        var num = 0
+        while ( item && ++iter < 1000 ) {
+            type = item[ 0 ].substr(1);
+            var typeNum = corpus[type].length
+            if(num == 0) {
+                num = corpus[type].length
+            }
+            else {
+                num = num * corpus[type].length
+            }
+            item = regex.exec( template );
+        }
+        return num
     }
 
     /*
