@@ -41,7 +41,7 @@ I've been pleasantly surprised to find several people using this template to cre
 - [WTF is my startup idea? ](http://whatthefuckismystartup.tech)
 - [Shit UX Ideas](http://shituxideas.com/)
 - [Nordic Larp Generator](http://www.messagefromtheinternet.com/nordiclarp/)
-- [WTF Are My Weekend Plans](www.wtfplans.com)
+- [WTF Are My Weekend Plans](http://www.wtfplans.com/)
 - [What The Fuck Is My Hydration Strategy](http://theplan.co.uk/hydration/)
 - [What The Fuck Is Birmingham's Transport Strategy](http://toys.paradisecircus.com/transport/)
 - [What's your fucking weapon](http://scottyboy76567.github.io/WeaponGenerator/)
