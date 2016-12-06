@@ -164,6 +164,13 @@ var WTF = (function() {
 
             types.push( type );
 
+        types = types.sort(function (a, b) {
+            if (a.length == b.length) {
+                return 0
+            }
+            return a.length > b.length ? -1 : 1
+        })
+        
         var content = '@(type)'.replace( 'type', types.join( '|' ) );
 
         regex = new RegExp( content, 'gi' );
